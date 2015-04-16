@@ -1,0 +1,20 @@
+{
+  "name": "my-static-page",
+  "version": "1.0.0",
+  "description": "My static page =============",
+  "main": "server.js",
+  "dependencies": {
+    "http": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.baun.de:2211/stefaan/my-static-page.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
