@@ -40,7 +40,7 @@ namespace :deploy do
 	task :npm_bower do
 		on roles(:app), in: :sequence do
 			within release_path do
-				execute :npm, 'install --production --silent'
+				execute :npm, 'install --production'
 #				execute :bower, 'install --silent'
 			end
 		end

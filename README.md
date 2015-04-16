@@ -1,4 +1,4 @@
 My static page
 =============
 
-This is an example Project to demonstrate capistrano
+This is an minimal example project to demonstrate capistrano
